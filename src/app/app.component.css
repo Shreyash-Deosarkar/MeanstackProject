@@ -1,0 +1,25 @@
+
+
+
+
+
+.text{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.casualhai{
+    font-size: 25px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: aquamarine;
+    color: white;
+  }
