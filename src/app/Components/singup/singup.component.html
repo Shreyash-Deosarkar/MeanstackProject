@@ -1,33 +1,73 @@
-<body>
-   <h3 class="text-center">Welcome to CausalHai! Go Aahed !!</h3>
-    <div class="signup-form">
-        <form  method="post">
-            <h2>Register</h2>
-            <p class="hint-text">Create your account. It's free and only takes a minute.</p>
-            <div class="form-group">
-                
-                <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+<div class="container" style="margin-top:10%, marging-left=50%">
+    <h3>Create your Account</h3>
+    <br />
+    
+    <!-- event binding -->
+
+    <form  class="form-group" (ngSubmit)="createAccount()">
+     
+        <div class="form-group">
+            <label class="control-label col-sm-2">First Name</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" formControlName="first_name" name="first_name"   placeholder="Enter first name">
             </div>
-            <div class="form-group">  
-                <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
-            </div>        	
-            
-            <div class="form-group">
-                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Last Name</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" formControlName="last_name"  name="last_name" placeholder="Enter last name">
             </div>
-            <div class="form-group">
-                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+<!-- 
+        <div class="form-group">
+            <label class="control-label col-sm-2">Mobile Number</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" formControlName="mob" name="mob" placeholder="Enter Mobile number">
             </div>
-            <div class="form-group">
-                <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
-            </div>        
-            <div class="form-group">
-                <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+        </div> -->
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Email</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" formControlName="email" name="email" placeholder="Enter email id">
             </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg btn-block" >Register Now</button>
+        </div>
+<!-- 
+        <div class="form-group">
+            <label class="control-label col-sm-2">Address</label>
+                <div class="col-sm-4">
+                    <textarea class="form-control" style="width: 350px; border-radius: 30px;" formControlName="address" name="address" placeholder="Enter full address"></textarea>
+                </div>
+        </div>
+        <br> -->
+
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Password </label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" formControlName="password" name="password" placeholder="Enter password">
             </div>
-        </form>
-        <div class="text-center"> <a routerLink="/login">Already have an account?</a></div>
-    </div>
-</body>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Confirm Password</label>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" formControlName="confirm_pass" name="confirm_pass" placeholder="Enter password to confirm">
+            </div>
+        </div>
+
+        
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary btnsubmit">Submit</button>
+            </div>
+      </div>
+
+      
+
+      
+    </form>
+  </div>
+
+  

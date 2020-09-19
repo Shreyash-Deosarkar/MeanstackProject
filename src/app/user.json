@@ -1,7 +1,15 @@
 {
     "user":[
-       
-        
+       {
+           
+          " first_name": "shreyash",
+            "last_name" : "deosarkar",
+          
+            "email" : "shreyashsdeosarkar@gmail.com",
+            "password ": "123",
+           "confirm_password": "123"
+       }
+         
 
     ]
 }

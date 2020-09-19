@@ -1,0 +1,30 @@
+{
+  "hoodies": [
+    {
+      "brand_name": "Puma",
+      "size": "L",
+      "color": "black",
+      "price":"2154Rs",
+      "imagepath":"../assets/men hoodies/7.webp",
+      "id":"1"
+    },
+    {
+      "brand_name": "Adidas",
+      "size": "M",
+      "color": "black",
+      "price":"2000Rs",
+      "imagepath":"../assets/men hoodies/1.webp",
+      "id":"1"
+    },
+    {
+      "brand_name": "Wrong",
+      "size": "xl",
+      "color": "brown",
+      "price":"3500Rs",
+      "imagepath":"../assets/men hoodies/15.webp",
+      "id":"1"
+    }
+    
+  ]
+ 
+}
